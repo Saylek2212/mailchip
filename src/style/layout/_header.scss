@@ -1,0 +1,131 @@
+.header__page {
+    // margin-block-end: clamp(2em, 3vw, 95px);
+}
+.header_page_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block-end: clamp(1em, 3vw, 95px);
+}
+.container {
+}
+.page__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page__logo_text {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+.page__logo_text-link {
+    text-decoration: none;
+}
+.header__nav_links {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: clamp(12px, 2vw, 18px);
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: capitalize;
+    & ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1em;
+    }
+    & a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.nav_link {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: clamp(12px, 2vw, 18px);
+    font-weight: 600;
+    line-height: 27px;
+    text-decoration: none;
+}
+.header__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-inline-start: 1em;
+    &>a {
+        white-space: nowrap;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.main_btn {
+    border-radius: 5px;
+    background: #dad873;
+    background-blend-mode: normal;
+    border: none;
+    padding: 10px;
+    a {
+        color: #309975;
+        text-decoration: none;
+    }
+}
+.header__page_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-block-end: clamp(2em, 3vw, 95px);
+}
+.left__box {
+}
+.page_tittle {
+    display: block;
+    max-width: 50%;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: clamp(24px, 6vw, 80px);
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    border-bottom: 2px solid #ffffff;
+    padding-block-end: 2vw;
+    margin-block-end: 3vw;
+}
+.proposition {
+    max-width: 350px;
+    display: flex;
+    gap: 1em;
+}
+.num {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: clamp(18px, 2vw, 48px);
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-block-end: 0.5em;
+}
+.proposition_block {
+    margin-block-end: 1em;
+}
+.right__box {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    img {
+        transform: translateY(35px);
+    }
+}
+
+

@@ -1,0 +1,65 @@
+// параметри шрифту (назва, розмір, колір, жирність), висота рядка, опис параметрів фону (фоновий колір), опис станів інтерактивних елементів, всі кольори в root
+
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+input,
+button,
+select,
+textarea {
+font: inherit;
+}
+
+// hidden page tittle
+
+
+
+
+p {
+    margin: initial;
+    }
+
+// :empty {
+//     display: none;
+// }
+
+
+@import "base/fonts"; 
+@import "base/vars";
+@import "base/settings";
+@import "base/extends";
+@import "base/mixins";
+
+@import "components/grid";
+@import "components/list";
+@import "components/btn";
+@import "layout/header";
+@import "layout/card";
+@import "layout/exchange";
+@import "layout/global";
+@import "layout/footer";
+
+@import "base/media";
+
+
