@@ -1,0 +1,46 @@
+.header {
+
+}
+.nav__cite {
+}
+.nav__links {
+    list-style-type: none;
+}
+.nav__links_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    white-space: nowrap;
+    color: #241c15;
+}
+.logo__cite {
+}
+.header__btns {
+    button {
+        margin: 0;
+        padding: 0;
+    }
+    button>.green {
+
+        color: $white;;
+        background-color: $green-color;
+    }
+}
+.header__btns_link {
+    // position: absolute;
+    // width: 42px;
+    // height: 19.23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    white-space: nowrap;
+    text-align: center;
+    color: #241c15;
+    text-decoration: none;
+    background: #fff;
+}
+  

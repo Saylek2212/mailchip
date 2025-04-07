@@ -359,4 +359,40 @@ template {
   max-width: 1529px;
   margin-inline: 2vw;
   padding-inline: 10px;
+}
+
+.nav__links {
+  list-style-type: none;
+}
+
+.nav__links_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  white-space: nowrap;
+  color: #241c15;
+}
+
+.header__btns button {
+  margin: 0;
+  padding: 0;
+}
+.header__btns button > .green {
+  color: rgb(255, 255, 255);
+  background-color: #007c89;
+}
+
+.header__btns_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  white-space: nowrap;
+  text-align: center;
+  color: #241c15;
+  text-decoration: none;
+  background: #fff;
 }/*# sourceMappingURL=main.css.map */
