@@ -1,7 +1,8 @@
 .header {
-
+    margin-block-end: 2vw;
 }
-.nav__cite {
+.logo__cite {
+    margin-block-end: 2vw;
 }
 .nav__links {
     list-style-type: none;
@@ -10,24 +11,21 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: clamp(14px, 4vw, 1rem); 
     line-height: 120%;
     white-space: nowrap;
     color: #241c15;
 }
-.logo__cite {
-}
-.header__btns {
-    button {
-        margin: 0;
-        padding: 0;
-    }
-    button>.green {
-
-        color: $white;;
+.green {
+    color: $white;;
+    background-color: $green-color;
+    outline-color: $green-color;
+    a {
         background-color: $green-color;
+        color: $white;
     }
 }
+
 .header__btns_link {
     // position: absolute;
     // width: 42px;
@@ -35,12 +33,10 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: calk(14px, 4vw, 1rem);
     white-space: nowrap;
     text-align: center;
     color: #241c15;
     text-decoration: none;
     background: #fff;
 }
-  

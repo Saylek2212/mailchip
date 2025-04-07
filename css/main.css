@@ -361,6 +361,21 @@ template {
   padding-inline: 10px;
 }
 
+button {
+  padding: 0.3vw 0.8vw;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  outline: 1px solid black;
+}
+
+.header {
+  margin-block-end: 2vw;
+}
+
+.logo__cite {
+  margin-block-end: 2vw;
+}
+
 .nav__links {
   list-style-type: none;
 }
@@ -369,30 +384,121 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: clamp(14px, 4vw, 1rem);
   line-height: 120%;
   white-space: nowrap;
   color: #241c15;
 }
 
-.header__btns button {
-  margin: 0;
-  padding: 0;
-}
-.header__btns button > .green {
+.green {
   color: rgb(255, 255, 255);
   background-color: #007c89;
+  outline-color: #007c89;
+}
+.green a {
+  background-color: #007c89;
+  color: rgb(255, 255, 255);
 }
 
 .header__btns_link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: calk(14px, 4vw, 1rem);
   white-space: nowrap;
   text-align: center;
   color: #241c15;
   text-decoration: none;
   background: #fff;
+}
+
+.hero {
+  background-image: url(/src/img/bg_hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5vw;
+}
+
+.hero__bunner_text {
+  flex-basis: 20%;
+}
+
+.hero__tittle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(18px, 2vw, 72px);
+  line-height: 100%;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  color: #692340;
+  margin-bottom: 1vw;
+}
+
+.subtittle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(12px, 2vw, 20px);
+  line-height: clamp(100%, 2vw, 140%);
+  color: #692340;
+  margin-bottom: 1vw;
+}
+
+.hero_btn {
+  background-color: #692340;
+  border: none;
+  outline: 1px solid black;
+  padding: 1vw;
+  margin-block-start: 1vw;
+}
+.hero_btn a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(10px, 2vw, 15px);
+  white-space: nowrap;
+  text-align: center;
+  color: #fbeeca;
+}
+
+.hero__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(10px, 2vw, 14px);
+  line-height: 21px;
+  white-space: nowrap;
+  color: #692340;
+}
+
+.hero__bunner_links {
+  flex-basis: 20%;
+}
+
+.bunner__links {
+  display: flex;
+  list-style-type: none;
+}
+.bunner__links :hover {
+  text-decoration: underline;
+}
+
+.bunner__links_link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(10px, 2vw, 14px);
+  white-space: nowrap;
+  text-align: left;
+  color: #692340;
+  text-decoration: none;
+  margin-inline: 1vw;
 }/*# sourceMappingURL=main.css.map */
