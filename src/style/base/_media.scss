@@ -1,0 +1,13 @@
+@media (max-width: 501px) {
+    .hero__box {
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 341px) {
+    .bunner__links_link {
+        color: rgba(105, 35, 64, 1);
+    }
+    .hero__text {
+        margin-top: 5vw;
+    }
+}
